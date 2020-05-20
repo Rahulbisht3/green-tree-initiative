@@ -1,0 +1,515 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header,
+section.wrapper,
+footer {
+  padding: 0 150px;
+}
+
+hr {
+  color: green;
+  margin: 0;
+}
+input {
+  display: inline;
+  width: 100%;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  background: #354463 0% 0% no-repeat padding-box;
+  font: Light 20px/32px Helvetica;
+  letter-spacing: -0.4px;
+  color: #ffffff;
+  opacity: 0.2;
+  height: 20px;
+}
+
+.no-outline:focus {
+  outline: none;
+}
+
+h1 {
+  font: Bold 28px/36px Helvetica;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  margin-top: 0px;
+}
+
+.inl {
+  margin: 0;
+}
+
+p {
+  font-size: 11px;
+  letter-spacing: 0.56px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.name,
+.street-address,
+.city-zip,
+.email-add,
+.credit,
+.expiration {
+  margin-top: 20px;
+}
+
+.name p,
+.street-address p,
+.city-zip p,
+.email-add p,
+.credit p,
+.expiration p {
+  margin-bottom: 0px;
+}
+
+hr {
+  margin-top: 2px;
+  color: rgba(193, 247, 213, 1);
+}
+/* Header */
+header {
+  min-height: 128px;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+header div.hset {
+  width: 220px;
+  height: 64px;
+  text-align: center;
+}
+header div.hset h1 {
+  font: Bold 28px/36px Helvetica;
+  letter-spacing: 0px;
+  color: #354463;
+  opacity: 1;
+  margin: 0;
+}
+div.header {
+  font: Bold 22px/28px Helvetica;
+  letter-spacing: 0px;
+  color: #354463;
+}
+
+/* Section Information */
+section.wrapper {
+  min-height: 800px;
+  background: url("img/dona.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  column-gap: 150px;
+}
+
+.info {
+  background: #354463 0% 0% no-repeat padding-box;
+  opacity: 1;
+  height: 750px;
+  margin: 30px 0px;
+  display: grid;
+  align-items: center;
+  padding: 30px 30px;
+}
+
+.name {
+  display: grid;
+  grid-template-columns: 45% 45%;
+  column-gap: 10%;
+}
+
+.city-zip {
+  display: grid;
+  grid-template-columns: 45% 45%;
+  column-gap: 10%;
+}
+
+.State {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 45% 45%;
+  column-gap: 10%;
+}
+
+.expiration {
+  display: grid;
+  grid-template-columns: 50% 25%;
+  column-gap: 10%;
+}
+
+.d {
+  display: grid;
+  grid-template-columns: 45% 45%;
+  column-gap: 10%;
+}
+
+.btn-links {
+  display: grid;
+  grid-template-columns: 45% 45%;
+  column-gap: 10%;
+  margin-top: 10px;
+}
+
+.btn-links button {
+  font-size: 20px;
+  background: rgba(193, 247, 213, 1) 0% 0% no-repeat padding-box;
+  border-radius: 100px;
+  opacity: 1;
+  padding: 10px;
+  border: 0;
+  color: rgba(53, 68, 99, 1);
+}
+
+.lkn {
+  font-size: 20px;
+  opacity: 1;
+  padding: 10px;
+  color: rgba(193, 247, 213, 1);
+}
+
+aside.aside {
+  margin: 30px 0px;
+  height: 362px;
+  /* width: 300px; */
+}
+
+.aside div {
+  height: 250px;
+}
+
+.aside div p {
+  margin: 0;
+  font-family: "Homemade Apple", cursive;
+  font-size: 60px;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+/* footer */
+
+footer {
+  /* display: grid;
+  grid-template-columns: 35% 10% 10% 10% 30%; */
+  /* grid-gap: 5%; */
+  height: 371px;
+  /* align-items: center; */
+  align-items: center;
+  display: flex;
+}
+
+.first {
+  align-self: center;
+  width: 20%;
+}
+.box {
+  margin-left: 10%;
+  width: 10%;
+}
+.box1 {
+  width: 10%;
+}
+.box2 {
+  width: 10%;
+}
+.box3 {
+  width: 10%;
+}
+.third {
+  margin-left: 10%;
+  width: 20%;
+}
+
+.first,
+.second,
+.third {
+  /* margin: 40px 0px; */
+}
+
+footer h1 {
+  color: #354463;
+  margin-top: 0;
+}
+
+footer p {
+  font: Light 14px/20px Helvetica;
+  letter-spacing: -0.14px;
+  color: #354463;
+  opacity: 1;
+}
+
+.fp {
+  font: Regular 14px/17px Helvetica;
+  letter-spacing: 0.56px;
+  color: #354463;
+  opacity: 1;
+}
+
+.sp {
+  font: Light 14px/20px Helvetica;
+  letter-spacing: -0.14px;
+  color: #354463;
+  opacity: 1;
+  margin-top: 5px;
+}
+
+.first h1 {
+  font: Bold 22px/28px Helvetica;
+  letter-spacing: 0px;
+  color: #354463;
+  opacity: 1;
+}
+
+/* .third {
+  margin-top: 0px;
+} */
+.third p {
+  margin-top: 0;
+  text-align: left;
+  font: Regular 44px/46px Flood Std;
+  font-size: 40px;
+  letter-spacing: 0px;
+  color: #354463;
+  opacity: 1;
+  font-family: "Dancing Script", cursive;
+  text-transform: uppercase;
+}
+
+.box1,
+.box2 {
+  margin-left: 10px;
+}
+
+select {
+  outline: none;
+  width: 100%;
+  border-color: transparent;
+  color: gray;
+  height: 20px;
+}
+
+@media (max-width: 768px) {
+  header,
+  section.wrapper,
+  footer {
+    padding: 0 64px;
+  }
+  section.wrapper {
+    min-height: 800px;
+    background: url("img/dona.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 100%;
+    /* flex-direction: column; */
+    column-gap: 150px;
+    grid-template-rows: 20% 60%;
+    grid-gap: 10%;
+  }
+  aside.aside {
+    order: 0;
+  }
+  div.info {
+    order: 1;
+  }
+
+  /* footer */
+  footer {
+    display: grid;
+    height: 432px;
+    grid-template-areas:
+      "first box box1"
+      "none box2 third";
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 40% 40%;
+    align-items: start;
+  }
+
+  hr.footer-hr {
+    display: none;
+  }
+
+  .first {
+    grid-area: first;
+    margin: 0;
+    align-self: start;
+  }
+  .box {
+    grid-area: box;
+  }
+  .box1 {
+    grid-area: box1;
+  }
+  .box2 {
+    grid-area: box2;
+  }
+  .third {
+    grid-area: third;
+    margin: 0;
+    display: block;
+    width: 150px;
+  }
+  .first h1 {
+    font: Bold 22px/28px Helvetica;
+    margin-top: 40px;
+    display: block;
+    width: 150px;
+  }
+  .third p {
+    margin-top: 30px;
+    display: block;
+    width: 150px;
+  }
+  .fp {
+    margin: 0;
+    margin-top: 40px;
+    display: block;
+    width: 150px;
+    height: 100%;
+    font: Regular 11px/13px Helvetica;
+    letter-spacing: 0.44px;
+    color: #354463;
+    opacity: 1;
+  }
+
+  .sp {
+    margin: 0;
+    display: block;
+    width: 150px;
+    height: 100%;
+    text-decoration: underline;
+    font: Light 14px/24px Helvetica;
+    letter-spacing: -0.14px;
+    color: #354463;
+  }
+}
+
+@media (max-width: 376px) {
+  header,
+  section.wrapper,
+  footer {
+    padding: 0 20px;
+  }
+  section.wrapper {
+    max-height: 985px;
+    background: url("img/dona.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 100%;
+    /* flex-direction: column; */
+    column-gap: 150px;
+    grid-template-rows: 15% 70%;
+    grid-gap: 0;
+  }
+
+  .info {
+    max-height: 816px;
+  }
+  aside.aside {
+    margin-top: 10px;
+    order: 0;
+  }
+  .aside div {
+    max-height: 79px;
+  }
+
+  .aside div p {
+    /* background-color: black; */
+    /* text-align: center; */
+    font-size: 32px;
+    font: Regular 32px/46px Flood Std;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+  }
+  div.info {
+    order: 1;
+  }
+
+  /* footer */
+  footer {
+    display: grid;
+    height: 600px;
+    grid-template-areas:
+      "first box "
+      "box1 box2 "
+      "none third";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 30% 30% 30%;
+    align-items: start;
+  }
+
+  hr.footer-hr {
+    display: none;
+  }
+
+  .first {
+    grid-area: first;
+    margin: 0;
+    align-self: start;
+  }
+  .box {
+    grid-area: box;
+  }
+  .box1 {
+    grid-area: box1;
+  }
+  .box2 {
+    grid-area: box2;
+  }
+  .third {
+    grid-area: third;
+    margin: 0;
+    display: block;
+    width: 100px;
+  }
+  .first h1 {
+    font: Bold 22px/28px Helvetica;
+    margin-top: 40px;
+    display: block;
+    width: 100px;
+    font-size: 18px;
+  }
+  .third p {
+    margin-top: 30px;
+    display: block;
+    width: 100px;
+  }
+  .fp {
+    margin: 0;
+    margin-top: 40px;
+    display: block;
+    width: 100px;
+    height: 100%;
+    font: Regular 11px/13px Helvetica;
+    letter-spacing: 0.44px;
+    color: #354463;
+    opacity: 1;
+  }
+
+  .sp {
+    margin: 0;
+    display: block;
+    width: 100px;
+    height: 100%;
+    text-decoration: underline;
+    font: Light 14px/24px Helvetica;
+    letter-spacing: -0.14px;
+    color: #354463;
+  }
+  h1 {
+    font-size: 18px;
+  }
+}
