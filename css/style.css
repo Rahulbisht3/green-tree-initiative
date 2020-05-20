@@ -94,7 +94,7 @@ section.theissue {
   min-height: 525px;
   background: transparent url("img/annie-spratt-135307-unsplash.png") 0% 0%
     no-repeat padding-box;
-  background-size: 100%vw;
+  /* background-size: 100%vw; */
   opacity: 0.76;
   display: grid;
   width: 100%;
